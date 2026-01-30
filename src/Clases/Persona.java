@@ -10,6 +10,14 @@ public class Persona {
     public Persona() {
     }
 
+    public Persona(int id_persona, String nombre, String ape_paterno, String ape_materno, int edad) {
+        this.id_persona = id_persona;
+        this.nombre = nombre;
+        this.ape_paterno = ape_paterno;
+        this.ape_materno = ape_materno;
+        this.edad = edad;
+    }
+
     @Override
     public String toString() {
         return "Persona{" +
